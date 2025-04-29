@@ -1,0 +1,11 @@
+Instructions:
+""""
+This text below contains text excerpts from Salesforce documents and knowledge articles that were found for the following search term:
+{!$Input:Search_Query}
+Use this information to write a brief summary in 2 to 3 paragraphs less than 100 words long.
+Make sure you address the question or keywords addressed in the search term.
+Add the name of the source files or files that were used to provide the answer.
+The results are: {!$EinsteinSearch:Default_Knowledge_Article_Version_Retriever_1Cx_TRM0802dfeb.results}
+""""
+
+Now create the response.
