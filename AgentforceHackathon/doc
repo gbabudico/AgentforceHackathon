@@ -1,0 +1,26 @@
+Analyze the following driving data records for a customer:
+
+Event - {!$Input:DrivingData.Event__c}
+Event Reason - {!$Input:DrivingData.Issues__c}
+Latitude data - {!$Input:DrivingData.location__Latitude__s}
+Longitude data - {!$Input:DrivingData.location__Longitude__s}
+Driving speed - {!$Input:DrivingData.speed__c}
+Driving time stamp - {!$Input:DrivingData.timestamp__c}
+
+
+Based on above data:
+
+Classify the customer's driving behavior as either Good, Average, or Risky.
+
+Suggest whether:
+
+No immediate action is required, or
+Notify the customer with safety tips, or
+Recommend scheduling a meeting with a technician for driving coaching.
+
+Keep the response short, simple and easy to understand. The response should include only three parameter. Classification, Next step and Review. Classification defines the driving behaviour, next step defines the suggested action from the technical team side and Review defines about correction required. For Review just add one line about what is wrong and how to correct it.
+
+First check whether the behaviour is average or good. Risky comes only when there is a real risk. Understand the driving behaviour and decide.
+
+Use the salesforce knowledge article - Driver Coaching Insights and Handling document to provide the response.
+{!$EinsteinSearch:Salesforce_Custom_Retriever_1Cx_TRM82eb80a5.results}
