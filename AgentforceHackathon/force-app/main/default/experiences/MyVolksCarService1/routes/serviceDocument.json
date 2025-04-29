@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "fa252fce-ead1-4ac1-b529-02c82ff392ea",
+  "appPageId" : "9a1210e2-4250-4f80-be14-f100e66ad91c",
+  "configurationTags" : [ ],
+  "devName" : "servicedocument",
+  "id" : "876f5b97-3e4e-410b-b666-e341aad1c35a",
+  "label" : "Service Document",
+  "pageAccess" : "UseParent",
+  "routeType" : "ServiceDocument",
+  "type" : "route",
+  "urlPrefix" : "serviceDocument"
+}

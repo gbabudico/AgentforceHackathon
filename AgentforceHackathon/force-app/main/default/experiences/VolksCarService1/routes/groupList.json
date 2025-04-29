@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b178e1f9-2861-4320-a99b-2fa1fa967228",
+  "appPageId" : "bae5df94-0c95-43f6-9f81-1075a23cbed0",
+  "configurationTags" : [ ],
+  "devName" : "Group_List",
+  "id" : "670f2c02-0f7e-4d0f-991d-4ec9bfbdb389",
+  "label" : "Group List",
+  "routeType" : "list-0F9",
+  "type" : "route",
+  "urlPrefix" : "group"
+}

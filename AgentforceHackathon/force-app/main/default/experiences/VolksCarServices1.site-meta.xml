@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperienceBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>VolksCarServices</label>
+    <type>ChatterNetworkPicasso</type>
+    <urlPathPrefix>ICanHelp2/s</urlPathPrefix>
+</ExperienceBundle>

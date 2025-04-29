@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Step__c</fullName>
+    <label>Next Step</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Notify the customer with safety tips</fullName>
+                <default>false</default>
+                <label>Notify the customer with safety tips</label>
+            </value>
+            <value>
+                <fullName>Recommend scheduling a meeting with a technician for driving coaching</fullName>
+                <default>false</default>
+                <label>Recommend scheduling a meeting with a technician for driving coaching</label>
+            </value>
+            <value>
+                <fullName>No immediate action is required</fullName>
+                <default>true</default>
+                <label>No immediate action is required</label>
+            </value>
+            <value>
+                <fullName>Action Completed.</fullName>
+                <default>false</default>
+                <label>Action Completed.</label>
+            </value>
+            <value>
+                <fullName>Schedules appointment for manual Check - Oil Degradation.</fullName>
+                <default>false</default>
+                <label>Schedules appointment for manual Check - Oil Degradation.</label>
+            </value>
+            <value>
+                <fullName>Schedules appointment for manual Check - possible leak and recommends inspection.</fullName>
+                <default>false</default>
+                <label>Schedules appointment for manual Check - possible leak and recommends inspection.</label>
+            </value>
+            <value>
+                <fullName>Email Notification - Battery Health warning.</fullName>
+                <default>false</default>
+                <label>Email Notification - Battery Health warning.</label>
+            </value>
+            <value>
+                <fullName>Scheduled service - Brake pad wear prediction.</fullName>
+                <default>false</default>
+                <label>Scheduled service - Brake pad wear prediction.</label>
+            </value>
+            <value>
+                <fullName>Scheduled service - Coolant system Overheating trend.</fullName>
+                <default>false</default>
+                <label>Scheduled service - Coolant system Overheating trend.</label>
+            </value>
+            <value>
+                <fullName>Scheduled service - Air filter Clogging Detection.</fullName>
+                <default>false</default>
+                <label>Scheduled service - Air filter Clogging Detection.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

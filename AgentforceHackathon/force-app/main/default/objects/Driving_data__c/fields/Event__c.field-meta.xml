@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event__c</fullName>
+    <label>Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Breaking</fullName>
+                <default>false</default>
+                <label>Breaking</label>
+            </value>
+            <value>
+                <fullName>Tire Pressure Anomalies</fullName>
+                <default>false</default>
+                <label>Tire Pressure Anomalies</label>
+            </value>
+            <value>
+                <fullName>Acceleration Patterns</fullName>
+                <default>false</default>
+                <label>Acceleration Patterns</label>
+            </value>
+            <value>
+                <fullName>Excessive Idling</fullName>
+                <default>false</default>
+                <label>Excessive Idling</label>
+            </value>
+            <value>
+                <fullName>High Engine RPMs</fullName>
+                <default>false</default>
+                <label>High Engine RPMs</label>
+            </value>
+            <value>
+                <fullName>Frequent Lane Departure Warnings</fullName>
+                <default>false</default>
+                <label>Frequent Lane Departure Warnings</label>
+            </value>
+            <value>
+                <fullName>Average Speed</fullName>
+                <default>false</default>
+                <label>Average Speed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
