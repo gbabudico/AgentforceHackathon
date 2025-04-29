@@ -1,0 +1,9 @@
+Generate an email about driving tip to our customer based on below value
+{!$Input:DrivingData.Review_Result__c}
+
+highlight the tips in bold. 
+Use Customer data - {!$RelatedList:DrivingData.Customer__r.Contacts.Records}
+
+Use sended details as below,
+GB GmbH
+Ignore name and position details.
